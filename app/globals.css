@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: var(--theme-brand);
+  --color-brand-hover: var(--theme-brand-hover);
+  --color-brand-accent: var(--theme-brand-accent);
+  --color-bg: var(--theme-bg);
+  --color-surface: var(--theme-surface);
+  --color-surface-hover: var(--theme-surface-hover);
+  --color-text-main: var(--theme-text-main);
+  --color-text-muted: var(--theme-text-muted);
+  --color-text-inverse: var(--theme-text-inverse);
+  --color-border: var(--theme-border);
+}
+
+:root {
+  /* Tema Oro Claro (Lujo Clásico) */
+  --theme-brand: #c2a36b; /* Gold oscuro */
+  --theme-brand-hover: #a18552; /* Gold más oscuro */
+  --theme-brand-accent: #d4af37; /* Gold brillante */
+  --theme-bg: #fdfbf7; /* Crema muy suave, inspirado en el humo */
+  --theme-surface: #ffffff; 
+  --theme-surface-hover: #faf7f2;
+  --theme-text-main: #2a251e; /* Café/gris muy oscuro para contraste */
+  --theme-text-muted: #6b6355; /* Café medio */
+  --theme-text-inverse: #ffffff;
+  --theme-border: #e8e2d5;
+}

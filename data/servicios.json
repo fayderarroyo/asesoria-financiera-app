@@ -1,0 +1,62 @@
+[
+  {
+    "id": "credito-libranza",
+    "titulo": "Crédito de Libranza",
+    "descripcion_corta": "Préstamo descontado directamente de tu nómina, con tasas preferenciales y sin codeudor.",
+    "beneficios_principales": [
+      "Aprobación rápida",
+      "Descuento automático de nómina",
+      "Tasas de interés competitivas"
+    ],
+    "icono": "Wallet",
+    "requisitos_minimos": "Ser empleado o pensionado de una entidad con convenio vigente."
+  },
+  {
+    "id": "credito-consumo",
+    "titulo": "Crédito de Consumo",
+    "descripcion_corta": "Financia tus proyectos personales, viajes o estudios con plazos flexibles.",
+    "beneficios_principales": [
+      "Libre destinación",
+      "Plazos de hasta 72 meses",
+      "Estudio de crédito sin costo"
+    ],
+    "icono": "CreditCard",
+    "requisitos_minimos": "Ingresos comprobables superiores a 1.5 SMMLV."
+  },
+  {
+    "id": "credito-vehiculo",
+    "titulo": "Crédito de Vehículo",
+    "descripcion_corta": "Adquiere el auto de tus sueños, nuevo o usado, con financiación de hasta el 100%.",
+    "beneficios_principales": [
+      "Financiación hasta 100%",
+      "Póliza todo riesgo incluida",
+      "Aprobación en línea"
+    ],
+    "icono": "Car",
+    "requisitos_minimos": "Cuota inicial mínima del 10% (sujeto a perfil) y buen reporte en centrales."
+  },
+  {
+    "id": "credito-hipotecario",
+    "titulo": "Crédito Hipotecario",
+    "descripcion_corta": "Haz realidad el sueño de tener vivienda propia con plazos a tu medida.",
+    "beneficios_principales": [
+      "Plazos hasta 20 años",
+      "Asesoría personalizada",
+      "Tasas fijas o variables"
+    ],
+    "icono": "Home",
+    "requisitos_minimos": "Ahorro programado o cuota inicial del 30% del valor del inmueble."
+  },
+  {
+    "id": "compra-cartera",
+    "titulo": "Compra de Cartera",
+    "descripcion_corta": "Unifica tus deudas y paga menos intereses con una sola cuota mensual.",
+    "beneficios_principales": [
+      "Mejora tu flujo de caja",
+      "Tasa más baja garantizada",
+      "Proceso ágil"
+    ],
+    "icono": "ArrowRightLeft",
+    "requisitos_minimos": "Tener deudas vigentes al día en otras entidades financieras."
+  }
+]
