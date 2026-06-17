@@ -1,5 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
+import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import AboutUs from '@/components/AboutUs';
 import WhyChooseUs from '@/components/WhyChooseUs';
@@ -17,7 +18,8 @@ export default async function Home() {
   const servicios = await getServicios();
 
   return (
-    <main className="min-h-screen bg-bg transition-colors duration-300 overflow-x-hidden">
+    <main className="min-h-screen bg-bg transition-colors duration-300 overflow-x-hidden pt-20">
+      <Navbar />
       <Hero />
       
       <AboutUs />
