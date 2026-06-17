@@ -1,6 +1,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import Hero from '@/components/Hero';
+import AboutUs from '@/components/AboutUs';
+import WhyChooseUs from '@/components/WhyChooseUs';
 import ServicesCarousel from '@/components/ServicesCarousel';
 import LeadForm from '@/components/LeadForm';
 import WhatsAppButton from '@/components/WhatsAppButton';
@@ -17,6 +19,10 @@ export default async function Home() {
   return (
     <main className="min-h-screen bg-bg transition-colors duration-300 overflow-x-hidden">
       <Hero />
+      
+      <AboutUs />
+      
+      <WhyChooseUs />
 
       <section id="servicios" className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
@@ -26,7 +32,6 @@ export default async function Home() {
           </p>
         </div>
         
-        {/* Reemplazamos el Grid estático por el Carrusel Interactivo */}
         <ServicesCarousel servicios={servicios} />
         
       </section>
