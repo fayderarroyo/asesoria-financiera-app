@@ -27,22 +27,22 @@ export default function WhyChooseUs() {
             <h3 className="text-2xl md:text-3xl font-extrabold mb-8 border-b border-white/10 pb-4 text-brand-accent relative z-10">¿POR QUÉ ELEGIRNOS?</h3>
             <ul className="space-y-6 relative z-10">
               <li className="flex items-center text-lg font-medium text-gray-200 hover:text-white transition-colors">
-                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Atención personalizada
+                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Gestión profesional con procesos rápidos y seguros.
               </li>
               <li className="flex items-center text-lg font-medium text-gray-200 hover:text-white transition-colors">
-                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Respuesta rápida
+                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Acompañamiento personalizado de principio a fin.
               </li>
               <li className="flex items-center text-lg font-medium text-gray-200 hover:text-white transition-colors">
-                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Seguimiento constante
+                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Atención a nivel nacional.
               </li>
               <li className="flex items-center text-lg font-medium text-gray-200 hover:text-white transition-colors">
-                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Gestión profesional
+                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Asesoría 100 % digital, sin necesidad de desplazamientos.
               </li>
               <li className="flex items-center text-lg font-medium text-gray-200 hover:text-white transition-colors">
-                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Procesos ágiles
+                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Procesos ágiles.
               </li>
               <li className="flex items-center text-lg font-medium text-gray-200 hover:text-white transition-colors">
-                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Experiencia en soluciones financieras
+                <CheckCircle2 className="text-brand-accent mr-4 shrink-0" size={24} /> Experiencia en soluciones financieras.
               </li>
             </ul>
           </div>

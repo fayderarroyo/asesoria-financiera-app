@@ -5,6 +5,7 @@ import Hero from '@/components/Hero';
 import AboutUs from '@/components/AboutUs';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import ServicesCarousel from '@/components/ServicesCarousel';
+import Simulator from '@/components/Simulator';
 import LeadForm from '@/components/LeadForm';
 import WhatsAppButton from '@/components/WhatsAppButton';
 
@@ -37,6 +38,8 @@ export default async function Home() {
         <ServicesCarousel servicios={servicios} />
         
       </section>
+
+      <Simulator />
 
       <section id="contacto" className="py-20 bg-brand relative transition-colors duration-300">
         <div className="absolute inset-0 bg-brand bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay"></div>
