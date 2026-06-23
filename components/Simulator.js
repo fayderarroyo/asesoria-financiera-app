@@ -58,7 +58,7 @@ export default function Simulator() {
         
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold text-text-main mb-4 uppercase tracking-wide flex items-center justify-center gap-3">
-            <Calculator className="text-brand-accent" size={36} /> 5TA SECCIÓN "Simulador"
+            <Calculator className="text-brand-accent" size={36} /> SIMULADOR
           </h2>
           <p className="text-xl text-text-muted">Proyecta tu crédito y conoce el valor estimado de tus cuotas mensuales.</p>
         </div>
